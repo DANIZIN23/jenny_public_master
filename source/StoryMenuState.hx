@@ -53,7 +53,7 @@ class StoryMenuState extends MusicBeatState
 
 	override function create()
 	{
-		#if MODS_ALLOWED
+		#if windows 
 		Paths.destroyLoadedImages();
 		#end
 
